@@ -1,0 +1,10 @@
+The aim of this project is to visualize the quantum and classical ground state of a small magnetic system with the help of jupyter notebook. The idea of this project comes from my research work, treating the magnetic skyrmions quantum mechanically in a frustrated system. The detailed Hamiltonian can be found in the ipynb file.
+
+Finding the ground state of the given Hamiltonian with real system will take long computation time, thus in this project, system with small size (around 10 spin sites) is considered. After diagonalizing the Hamiltonian matrix with the eigh function from the numpy.linalg package, the expectation values of the spin operators  ⟨𝑆𝛼𝑖⟩  is calculated with the ground state. Then the quantum spins can be visualized by plotting the spin expectation values in 3D. The classical ground state, on the other hand, can also be calculated with energy variation method or classical Monte Carlo. The comparison of quantum and classical systems can be used in the teaching of matrix quantum mechanics and electromagnetism.
+
+The packages included is covered in the environment.yml file.
+
+The program can be run by going through each cell and press Ctrl + enter. Parameters can be changed in the cell after the explaining cell "Diagonalization".
+
+Best,
+Zhen
