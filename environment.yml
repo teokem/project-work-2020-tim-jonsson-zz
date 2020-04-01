@@ -1,0 +1,22 @@
+name: LUcompute
+channels:
+  - conda-forge
+dependencies:
+#  - gcc # [osx]
+  - python
+  - matplotlib
+  - bokeh
+  - ipywidgets
+  - notebook
+  - numpy
+  - openpyxl
+  - pandas
+  - pip
+  - scipy
+  - seaborn
+  - pip
+  - xlrd
+  - cryptography
+  - simplegeneric
+  - cython
+  - geopandas
