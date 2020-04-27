@@ -6,5 +6,20 @@ The packages included is covered in the environment.yml file.
 
 The program can be run by going through each cell and press Ctrl + enter. Parameters can be changed in the cell after the explaining cell "Diagonalization".
 
+-------------Edited after review-------------------
+Response to review comments:
+doi added: 10.5281/zenodo.3768935
+Detailed description of packages added to READ ME (previously in the notebook):
+  numpy: generally used.
+  time: used to monitor the speed of the diagonalization. 
+  eigs (and eigsh): used to diagonalize sparse (and sparse Hermitian) matrices, using Lanczos algorithm. 
+  eig (and eigh): used to do full diagonalization. 
+  matplotlib.pyplot and Axes3D: used to plot the classical or quantum spins and to visualize the spin texture.
+  
+Interesting points of my notebook:
+The difference between classical and quantum spin interactions is always worth mentioning, especially in the teaching of basic quantum mechanics or electromagnetism. The exact diagonalization and visualization codes can give a direct image about the frequently discussed Heisenberg system. The students can grab the special properties of quantum interactions immediately.
+----------------------------------------------------
+
+
 Best,
 Zhen
